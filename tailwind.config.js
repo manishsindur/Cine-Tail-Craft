@@ -2,7 +2,13 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				Eerie_Black: "#1A1A1D",
+				Old_Burgundy: "#462935DF",
+				China_Rose: "#A64A6999",
+			},
+		},
 	},
 	plugins: [],
 };
