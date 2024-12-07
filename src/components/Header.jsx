@@ -4,7 +4,7 @@ const Header = () => {
 	const location = useLocation();
 	const isWelcomePage = location.pathname === "/";
 	return (
-		<header className="m-6 flex items-center justify-between">
+		<header className="flex items-center justify-between">
 			<div className="font-mono text-md">Cine Tail Craft</div>
 			{!isWelcomePage && (
 				<nav>
