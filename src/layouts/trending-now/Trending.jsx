@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Trending = () => {
 	return (
-		<>
+		<div className="my-10">
 			<nav>
-				<ul>
+				<ul className="flex gap-6">
 					<li>
 						<NavLink>Trending Now</NavLink>
 					</li>
@@ -20,7 +20,7 @@ const Trending = () => {
 				</ul>
 			</nav>
 			<div></div>
-		</>
+		</div>
 	);
 };
 
