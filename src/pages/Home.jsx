@@ -10,6 +10,8 @@ function Home() {
 		<div className="px-10 py-5">
 			<Header />
 			<Trending />
+			<Streaming />
+			<Recent />
 			<Footer />
 		</div>
 	);
