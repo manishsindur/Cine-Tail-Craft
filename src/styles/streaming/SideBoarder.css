@@ -1,4 +1,4 @@
-.sideWhiteBoarder::before {
+.sideWhiteBorder::before {
 	content: "";
 	position: absolute;
 	background-color: white;
