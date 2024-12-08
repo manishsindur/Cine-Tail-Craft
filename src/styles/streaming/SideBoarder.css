@@ -1,0 +1,11 @@
+.sideWhiteBoarder::before {
+	content: "";
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	width: 10px;
+	height: 100%;
+	left: 0.1%;
+	top: 1%;
+	border-radius: 12px 0 0 12px;
+}
