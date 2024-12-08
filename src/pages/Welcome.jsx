@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function Welcome() {
 	const navigate = useNavigate();
 	return (
-		<div className="h-screen flex flex-col justify-between">
+		<div className="h-screen flex flex-col justify-between px-10 py-5">
 			<Header />
 			<div className="flex flex-col justify-center items-center gap-4">
 				<h1 className="text-4xl">Welcome to Cine Tail Craft</h1>
